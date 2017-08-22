@@ -43,7 +43,6 @@ export default function() {
 
     tiles.translate = [x / k, y / k];
     tiles.scale = k;
-    tiles.tileSize = tileSize;
     return tiles;
   }
 
